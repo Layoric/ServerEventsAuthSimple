@@ -76,7 +76,7 @@ namespace AngularJSApp9
                 HeartbeatPath = "/event-heartbeat",
                 UnRegisterPath = "/event-unregister",
                 SubscribersPath = null,
-                LimitToAuthenticatedUsers = true,
+                LimitToAuthenticatedUsers = false,
                 NotifyChannelOfSubscriptions = false
             });
 
