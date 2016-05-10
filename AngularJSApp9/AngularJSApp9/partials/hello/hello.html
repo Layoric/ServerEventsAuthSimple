@@ -1,0 +1,15 @@
+﻿<div>
+    <input class="form-control input-lg" ng-model="name" id="Name" type="text" placeholder="Type your name">
+    <p ng-bind="helloResult" style="margin-top: 15px; font-size: large" ng-show="name"></p>
+</div>
+<form action="/auth?Provider=credentials" method="post">
+    <input type='hidden' name='Continue' value='/' />
+    <dl>
+        <dt>User Name:</dt>
+        <dd><input type='text' name='UserName' /></dd>
+        <dt>Password:</dt>
+        <dd><input type='password' name='Password' /></dd>
+    </dl>
+    <input type='submit' value='Sign In' />
+</form>
+
